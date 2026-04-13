@@ -17,7 +17,7 @@
 ## 使用方式
 
 ```
-/generator <PRD 来源：文件路径 | 文本内容>
+/quickspec <PRD 来源：文件路径 | 文本内容>
 ```
 
 ## 结构
@@ -27,7 +27,7 @@ quickspec/
 ├── .claude-plugin/
 │   └── plugin.json
 ├── skills/
-│   ├── generator/            # 编排器（入口 skill）
+│   ├── quickspec/            # 编排器（入口 skill）
 │   ├── prd-loader/           # 步骤 1：加载 PRD
 │   ├── prd-analyzer/         # 步骤 2：PRD 分析
 │   ├── codebase-mapper/      # 步骤 3：代码库映射
